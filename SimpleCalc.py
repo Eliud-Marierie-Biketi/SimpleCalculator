@@ -5,13 +5,13 @@ name = input("Enter your name : ")
 
 print(f"Welcome {name}, This is a simple calculator !\n")
 
-first_number = input("Enter first number:")
-second_number = input("Enter second number:")
+first_number = float(input("Enter first number:"))
+second_number = float(input("Enter second number:"))
 
-addition =  float(first_number) + float(second_number)
-subtraction = float(first_number) - float(second_number)
-product = float(first_number) * float(second_number)
-division = float(first_number) / float(second_number)
+addition =  first_number + second_number
+subtraction = first_number - second_number
+product = first_number * second_number
+division = first_number / second_number
 
 
 operation = input("Enter one of the operation for the two numbers above\nEither + (for addition),\t- (for subtraction),\t * for (multiplication)\t and / for (division):")
